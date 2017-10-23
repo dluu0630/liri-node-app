@@ -117,7 +117,7 @@ function movieThis() {
 
 // Do What It Says Function
 function doWhat() {
-	// reads  random.txt and do executes whats within file
+    // reads  random.txt and do executes whats within file
     fs.readFile("random.txt", 'utf8', function(err, data) {
             fs.readFile("random.txt", "utf8", function(error, data) {
                 if (!error) {
